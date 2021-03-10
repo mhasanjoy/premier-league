@@ -1,0 +1,29 @@
+.team-banner img{
+    width: 180px;
+}
+.team-container{
+    background-color: #3d195b;
+    color: rgba(255, 255, 255, 1);
+}
+.team-info{
+    border-radius: 15px;
+}
+.info-icon{
+    margin-right: 15px;
+}
+.brand-icons{
+    margin-right: 50px;
+}
+.twitter-icon{
+    color: rgba(0, 172 , 238, 1);
+}
+.facebook-icon{
+    color: rgba(66, 103, 178, 1);
+}
+.youtube-icon{
+    color: rgba(255, 0, 0, 1);
+}
+.club-description{
+    font-size: 20px;
+    color: rgba(211, 211, 211, 1);
+}

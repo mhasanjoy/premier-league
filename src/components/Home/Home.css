@@ -1,0 +1,26 @@
+.home-banner{
+    position: relative;
+    height: 350px;   
+}
+.home-banner::before{
+    content: "";
+    background-image: url("../../images/banner.jpg");
+    background-color: rgba(137, 43, 226, 1);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.5;
+}
+.home-title{
+    position: relative;
+    color: #3d195b;
+    font-size: 60px;
+}
+.teams-container{
+    background-color: #3d195b;
+}
