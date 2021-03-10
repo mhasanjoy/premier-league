@@ -16,8 +16,7 @@ const TeamDetail = () => {
         const url = `https://www.thesportsdb.com/api/v1/json/1/lookupteam.php?id=${idTeam}`;
         fetch(url)
             .then(response => response.json())
-            .then(data => setTeam(data.teams[0]))
-            .catch(error => console.log('Something went wrong. Please try again later.'));
+            .then(data => setTeam(data.teams[0]));
     }, [idTeam]);
 
     const { strStadiumThumb, strTeamBadge, strTeam, intFormedYear, strCountry, strSport, strGender, strDescriptionEN, strFacebook, strYoutube, strTwitter } = team;
@@ -57,9 +56,9 @@ const TeamDetail = () => {
                         <p className="club-description">{strDescriptionEN}</p>
                     </div>
                     <div className="d-flex justify-content-center mb-5 pt-4 pb-5">
-                        <a href={`https://${strTwitter}`} target="_blank" rel="noreferrer"><FontAwesomeIcon className="brand-icons twitter-icon" icon={['fab', 'twitter']} size="3x" /></a>
-                        <a href={`https://${strFacebook}`} target="_blank" rel="noreferrer"><FontAwesomeIcon className="brand-icons facebook-icon" icon={['fab', 'facebook']} size="3x" /></a>
-                        <a href={`https://${strYoutube}`} target="_blank" rel="noreferrer"><FontAwesomeIcon className="brand-icons youtube-icon" icon={['fab', 'youtube']} size="3x" /></a>
+                        <a href={`https://${strTwitter}`} target="_blank" rel="noreferrer"><FontAwesomeIcon className="social-icon twitter-icon" icon={['fab', 'twitter']} size="3x" /></a>
+                        <a href={`https://${strFacebook}`} target="_blank" rel="noreferrer"><FontAwesomeIcon className="social-icon facebook-icon" icon={['fab', 'facebook']} size="3x" /></a>
+                        <a href={`https://${strYoutube}`} target="_blank" rel="noreferrer"><FontAwesomeIcon className="social-icon youtube-icon" icon={['fab', 'youtube']} size="3x" /></a>
                     </div>
                 </div>
             </div>

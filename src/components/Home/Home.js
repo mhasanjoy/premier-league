@@ -8,8 +8,7 @@ const Home = () => {
         const url = `https://www.thesportsdb.com/api/v1/json/1/search_all_teams.php?l=English%20Premier%20League`;
         fetch(url)
             .then(response => response.json())
-            .then(data => setTeams(data.teams))
-            .catch(error => console.log('Something went wrong. Please try again later.'));
+            .then(data => setTeams(data.teams));
     }, []);
 
     return (
