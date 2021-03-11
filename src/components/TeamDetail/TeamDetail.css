@@ -1,5 +1,15 @@
+.team-banner::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(128, 128, 128, 0.6);
+}
 .team-banner img{
     width: 180px;
+    position: relative;
 }
 .team-container{
     background-color: #3d195b;

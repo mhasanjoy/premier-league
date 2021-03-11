@@ -21,6 +21,7 @@ const TeamDetail = () => {
 
     const { strStadiumThumb, strTeamBadge, strTeam, intFormedYear, strCountry, strSport, strGender, strDescriptionEN, strFacebook, strYoutube, strTwitter } = team;
     const styleTeamBanner = {
+        position: 'relative',
         height: "350px",
         backgroundImage: `url(${strStadiumThumb})`,
         backgroundColor: "rgba(137, 43, 226, 1)",
