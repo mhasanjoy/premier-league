@@ -12,7 +12,7 @@ const Team = (props) => {
     };
 
     return (
-        <div className="col-md-4">
+        <div className="col-md-6 col-xl-4">
             <div className="card mb-5 text-center align-items-center">
                 <img src={strTeamBadge} className="card-img-top w-50 pt-5" alt="" />
                 <div className="card-body">

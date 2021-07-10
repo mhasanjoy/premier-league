@@ -24,6 +24,7 @@
 .club-description{
     font-size: 20px;
     color: rgba(211, 211, 211, 1);
+    text-align: justify;
 }
 .social-icon{
     margin-right: 50px;

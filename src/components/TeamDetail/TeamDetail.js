@@ -56,10 +56,10 @@ const TeamDetail = () => {
                     <div className="mt-3 pt-3">
                         <p className="club-description">{strDescriptionEN}</p>
                     </div>
-                    <div className="d-flex justify-content-center mb-5 pt-4 pb-5">
+                    <div className="d-flex justify-content-center mb-5 mt-5 pt-4 pb-5">
                         <a href={`https://${strTwitter}`} target="_blank" rel="noreferrer"><FontAwesomeIcon className="social-icon twitter-icon" icon={['fab', 'twitter']} size="3x" /></a>
                         <a href={`https://${strFacebook}`} target="_blank" rel="noreferrer"><FontAwesomeIcon className="social-icon facebook-icon" icon={['fab', 'facebook']} size="3x" /></a>
-                        <a href={`https://${strYoutube}`} target="_blank" rel="noreferrer"><FontAwesomeIcon className="social-icon youtube-icon" icon={['fab', 'youtube']} size="3x" /></a>
+                        <a href={`https://${strYoutube}`} target="_blank" rel="noreferrer"><FontAwesomeIcon className="youtube-icon" icon={['fab', 'youtube']} size="3x" /></a>
                     </div>
                 </div>
             </div>
